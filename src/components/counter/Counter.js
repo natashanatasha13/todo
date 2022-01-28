@@ -1,4 +1,4 @@
-import Element from "../element"
+import Element from "../element";
 export default
   class TodoCounter extends Element {
   constructor(elementClass, elementPlaceHolder, textContent, elementParent) {
@@ -8,3 +8,4 @@ export default
     this.elementParent.appendChild(this.element);
   }
 }
+console.log('It works');
